@@ -3,15 +3,9 @@
   <head>
   </head>
   <body>
-    <iframe src="/libs/RICKROLLED.mp4" allow="autoplay" id="frame" onloadeddata="rickroll();">
+    <iframe src="/libs/RICKROLLED.mp4" allow="autoplay" id="frame">
     </iframe>
     <script>
-      function rickroll() {
-        a  = document.getElementById("frame");
-        b = a.contentDocument;
-        b.body.getElementsByTagName("video")[0].controls = "false";
-        b.body.getElementsByTagName("video")[0].requestFullscreen();
-      }
     </script>
   </body>
 </html>
