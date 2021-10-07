@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+  <style>
+  p {
+    font-size:50px;
+    }
+  </style>
 <body>
 <!-- Display the countdown timer in an element -->
 <p id="demo"></p>
@@ -30,7 +35,7 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "TIME";
   }
 }, 1000);
 </script>
