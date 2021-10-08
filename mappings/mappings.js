@@ -1,7 +1,7 @@
-function func_00001_f() {
-  console.log(arguments);
+function func_00001_f(input) {
+  console.log(input);
 }
 
-function func_00002_f() {
-  alert(arguments);
+function func_00002_f(input) {
+  alert(input);
 }
